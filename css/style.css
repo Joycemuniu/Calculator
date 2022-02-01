@@ -1,24 +1,20 @@
-body{
-    background-color: brown;
-    font-family: 'Times New Roman', Times, serif;
+ *,*::before,*::after,{
+  box-sizing:boder box
+  font-family:
+  font-weight:normal 
 }
- #container{
-     position: relative; 
-    background-color: chartreuse;
-    width: 1000px;
-    height: 550px;
-    margin: 20px auto;
-    
-} 
-#calculator{
-  background-color: coral;
-  position: absolute;
-  width: 320px;
-  height: 400px;
-  top: 20px;
+body{
+  padding: 0;
+  margin: 0;
+  background-color: cyan;
+
+}
+.calculator-grid{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+  position: relative;
+
   
-
-
-
-
 }
