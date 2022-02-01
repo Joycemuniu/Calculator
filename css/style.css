@@ -29,7 +29,7 @@ body{
   outline: none; */
 
 .grid-container{
-  display: grid;
+   display: grid;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
@@ -45,17 +45,17 @@ body{
   background-color: wheat;
 
 }
-.grid-container > button :hover {
-  background-color: whitesmoke;
+ .grid-container > button :hover {
+  background-color: whitesmoke; 
 
 }
-.span-two{
-  grid-column: span 2;
+ .span-two{
+  grid-column: span 2; 
 }
-
-.output {
-  grid-column: 1 / -1;
+.output{
   background-color: black;
+  
+
 }
 
 
