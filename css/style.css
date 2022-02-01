@@ -1,20 +1,50 @@
- *,*::before,*::after,{
-  box-sizing:boder box
-  font-family:
-  font-weight:normal 
-}
+*,*::before,*::after,{
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight:normal;
+} 
+
 body{
   padding: 0;
   margin: 0;
   background-color: cyan;
 
 }
-.calculator-grid{
+
+.grid-container{
   display: grid;
   justify-content: center;
   align-items: center;
-  min-height: 100%;
-  position: relative;
+  min-height: 100vh;
+  grid-template-columns: repeat(4,100px);
+  grid-template-rows:minmax(120px, auto) repeat(5,100px);
+ 
+  
+
+} 
+.calculator-grid > buttons {
+  cursor: pointer;
+  font-size: 2rem;
+  border: 1px solid white;
+  outline: none;
+  background-color: salmon;
+  font-family:Verdana, Geneva, Tahoma, sans-serif 
+  
 
   
+
+
+
+
 }
+ 
+
+
+
+
+
+
+
+  
+
+  
