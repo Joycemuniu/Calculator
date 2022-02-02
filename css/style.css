@@ -32,11 +32,12 @@ body{
    display: grid;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  min-height: 70vh;
   grid-template-columns: repeat(4,100px); 
   grid-template-rows: repeat(5,100px);
-  /* background-color: cadetblue; */
-  /* width: 400px; */
+   /* background-color: cadetblue; 
+  width: 500px; 
+  height: 1000px; */
   
 
 }
@@ -57,7 +58,7 @@ body{
 }
 .output{
   grid-column: 1 / -1;
-  padding: 70px;
+   padding: 40px; 
   background-color: rgba(0, 0, 0, 75%);
   display: flex;
   align-items: flex-end;
@@ -67,7 +68,7 @@ body{
   word-break: break-all;
 
 }
-.output .previous-operand{
+/* .output .previous-operand{
   color: rgba(255,255,255,.75);
   font-size: 1.5rem;
 
@@ -75,7 +76,7 @@ body{
 .output .current-operand{
   color: rgba(255,255,255,);
   font-size: 2.5rem;
-}
+} */
 
 
 
