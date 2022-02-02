@@ -3,6 +3,31 @@ class calculator{
     this.previousOperandTextElement=previousOperandTextElement
     this.currentOperandTextElement=currentOperandTextElement
 }
+clear(){
+
+}
+delete() {
+
+}
+appendNumber(number){
+
+}
+chooseoperation(operation){
+
+}
+compute(){
+
+}
+updateDisplay(){
+
+}
+
+
+
+
+
+
+
 const numberbuttons=document.querySelectorAll('[data-number]')
 const operationbuttons=document.querySelectorAll('[data-operation]')
 const equalsbutton=document.querySelector('[data-equals]')

@@ -35,6 +35,9 @@ body{
   min-height: 100vh;
   grid-template-columns: repeat(4,100px); 
   grid-template-rows: repeat(5,100px);
+  /* background-color: cadetblue; */
+  /* width: 400px; */
+  
 
 }
 .grid-container > button {
@@ -46,16 +49,32 @@ body{
 
 }
  .grid-container > button :hover {
-  background-color: whitesmoke; 
+  background-color: rgb(20, 14, 14); 
 
 }
  .span-two{
-  grid-column: span 2; 
+  grid-column: span 2;
 }
 .output{
-  background-color: black;
-  
+  grid-column: 1 / -1;
+  padding: 70px;
+  background-color: rgba(0, 0, 0, 75%);
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  flex-direction: column;
+  word-wrap: break-word;
+  word-break: break-all;
 
+}
+.output .previous-operand{
+  color: rgba(255,255,255,.75);
+  font-size: 1.5rem;
+
+}
+.output .current-operand{
+  color: rgba(255,255,255,);
+  font-size: 2.5rem;
 }
 
 
