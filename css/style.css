@@ -12,55 +12,6 @@ body{
 }
 
 
-/* .grid-container{
-  display: grid;
-  justify-content: center;
-  align-items: center;
-  min-height: 70vh;
-  grid-template-columns: repeat(4,100px); 
-  grid-template-rows: repeat(5,100px);
-  background-color: cadetblue; 
-  width: 500px; 
-  height: 1000px; 
-  
-
-}
-.grid-container > button {
-  cursor: pointer;
-  font-size: 2rem;
-  border: 1px solid white;
-  outline: none;
-  background-color: wheat;
-
-}
- .grid-container > button :hover {
-  background-color: rgb(20, 14, 14); 
-
-}
- .span-two{
-  grid-column: span 2;
-}
-.output{
-  grid-column: 1 / -1;
-   padding: 50px; 
-  background-color: rgba(0, 0, 0, 75%);
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-between;
-  flex-direction: column;
-  word-wrap: break-word;
-  word-break: break-all;
-
-}
-.output .previous-operand{
-  color: rgba(255,255,255,.75);
-  font-size: 1.5rem;
-
-}
-.output .current-operand{
-  color: rgba(255,255,255,);
-  font-size: 2.5rem;
-}  */
 .grid-container{
   display: grid;
   justify-content: center;
@@ -98,16 +49,6 @@ body{
   word-break: break-all;
 
   
-}
-.output .previous-operand{
-  color: rgba(255,255,255,.75);
-  font-size: 1.5rem;
-
-}
-.output .current-operand{
-  color: white;
-  font-size: 2.5rem;
-
 }
 
 
